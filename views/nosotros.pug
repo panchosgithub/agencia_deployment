@@ -1,0 +1,33 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5 
+        .row 
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+
+            .col-md-7
+                h1 #{pagina} 
+                blockquote ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam diam quis magna cursus dapibus. Donec eu scelerisque mi. In mattis eros nibh, pharetra mollis augue aliquam sed. Nam vel libero pharetra.
+
+                p eu ornare libero. In id blandit arcu, id egestas libero. Pellentesque finibus enim lorem, dapibus volutpat ipsum scelerisque sed. Vestibulum eu lacus sollicitudin, facilisis velit quis, luctus augue. Curabitur tincidunt mauris luctus vehicula interdum. Vestibulum elementum nunc ut risus consectetur viverra. 
+
+                p non elit nibh. Nunc aliquet faucibus velit quis gravida. Phasellus at justo vel lacus elementum tincidunt. Suspendisse blandit arcu in dapibus tincidunt. Aenean lacus velit, cursus non tempor sed, vulputate in eros. Ut ultricies eros nec mi imperdiet, 
+
+    .listado-iconos 
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4 
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4") 
+                    h2.mb-4 Seguridad 
+                    p Curabitur tincidunt mauris luctus vehicula interdum. Vestibulum elementum nunc ut risus consectetur viverra. 
+ 
+                .col-md-4 
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4") 
+                    h2.mb-4 Mejores Destinos
+                    p Curabitur tincidunt mauris luctus vehicula interdum. Vestibulum elementum nunc ut risus consectetur viverra. 
+
+                .col-md-4 
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4") 
+                    h2.mb-4 Mejores Precios
+                    p Curabitur tincidunt mauris luctus vehicula interdum. Vestibulum elementum nunc ut risus consectetur viverra. 
